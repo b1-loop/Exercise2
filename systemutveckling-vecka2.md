@@ -1,1 +1,5 @@
+Fråga 2: Vad är ett Git-commit och varför är det viktigt?
+Beskriv ett verkligt scenario där Git hjälper dig undvika problem.
+Ett Git-commit är en ändring i vår Git – repo. När du commitar så sparas ändringar i fil,när och vem har gjort ändringen. Vi får även ett commit-meddelande som ger oss möjligheten att förklara varför ändringen har gjorts. Ändringarna kopplas även till egen ID. Det är viktigt för att följa utveckling över tid. Man kan alltid backa till en gammal version om den nya inte fungerar. Flera utvecklare kan jobba på samma kod. 
+: Man jobbar på ett projekt och ändrar något i koden för att göra en förbättring. Efter ett tag så märker jag att hela programmet har slutat funka. Eftersom alla våra commit har tidigare sparats i Git kan vi enkelt gå tillbaka och kolla hur koden såg ut innan. Vi kan även gå tillbaka till den fungerade versionen direkt. Detta gör att vi sparar mycket tid och kan få projektet att funka direkt. Utan Git hade vi behövt hitta exakt vart och vad vi ändrade manuellt. Det blir rörigt och tar långt tid att åtgärda. 
 
