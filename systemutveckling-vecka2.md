@@ -1,17 +1,24 @@
-Fråga 1: Beskriv skillnaden mellan vattenfallsmodellen och agil metodik.
-När bör man använda vilken, och varför?
-Vattenfall: Skulle jag använda mig av vattenfall metoden för ”insta” så skulle jag göra så här:
-•	Lägga upp en plan, vilka delar/funktioner behöver jag för appen. Vilken design vill jag använda mig av eller kund vad vill.
-•	Hade då börjat i vad jag tycker är rätt ordning på funktioner och så fort en blir klar så går jag vidare till nästa.
-•	Låt oss börja först och främst med design och hur det ska se ut.
-•	När design är klar kan vi gå vidare till nästa steg som login.
-•	Vi utför då våra koden i stegvis tills vi gör klart varje steg.
-•	När alla steg är klara kan appen lanseras.
-o	Vattenfall passar bäst när: Kraven är tydliga ocg fasta redan från början.Projektet är kortare och enklate.
-Agil: Här behöver jag inte göra att i steg viss och vänta till varje steg är färdig.
-•	Självklart så behöver man en plan här med däremot kan vi dela upp varje steg i små sektioner som ge oss möjlighet att vara flexibla och kunna gå tillbaka för att till exempel ändra på design eller login vid önskan.
-•	Denna metod ger oss fördelarna på att kunna jobba med olika saker samtidigt och inte behöva boka av allt i stegvis utan kunna lätt hoppa från login till likes för att sedan gå vidare till upplägg av bilder.
-•	Nu kan jag testa mig fram och tillbaka bygga login eller upplägg av bilder men gå tillbaka och ändra om inte jag är nöjd.
-•	Här har jag möjligheten att lansera utan och vara klar med alla steg för att få feedback från användare.
-•	Agil passar bäst när: Kraven är otydliga eller kan förändras under projektets gång. Projektet är längre och mer komplext.Kunden behov kan utvecklas under tiden.
+
+FrÃ¥ga 2: Vad Ã¤r ett Git-commit och varfÃ¶r Ã¤r det viktigt?
+Beskriv ett verkligt scenario dÃ¤r Git hjÃ¤lper dig undvika problem.
+Ett Git-commit Ã¤r en Ã¤ndring i vÃ¥r Git â€“ repo. NÃ¤r du commitar sÃ¥ sparas Ã¤ndringar i fil,nÃ¤r och vem har gjort Ã¤ndringen. Vi fÃ¥r Ã¤ven ett commit-meddelande som ger oss mÃ¶jligheten att fÃ¶rklara varfÃ¶r Ã¤ndringen har gjorts. Ã„ndringarna kopplas Ã¤ven till egen ID. Det Ã¤r viktigt fÃ¶r att fÃ¶lja utveckling Ã¶ver tid. Man kan alltid backa till en gammal version om den nya inte fungerar. Flera utvecklare kan jobba pÃ¥ samma kod. 
+: Man jobbar pÃ¥ ett projekt och Ã¤ndrar nÃ¥got i koden fÃ¶r att gÃ¶ra en fÃ¶rbÃ¤ttring. Efter ett tag sÃ¥ mÃ¤rker jag att hela programmet har slutat funka. Eftersom alla vÃ¥ra commit har tidigare sparats i Git kan vi enkelt gÃ¥ tillbaka och kolla hur koden sÃ¥g ut innan. Vi kan Ã¤ven gÃ¥ tillbaka till den fungerade versionen direkt. Detta gÃ¶r att vi sparar mycket tid och kan fÃ¥ projektet att funka direkt. Utan Git hade vi behÃ¶vt hitta exakt vart och vad vi Ã¤ndrade manuellt. Det blir rÃ¶rigt och tar lÃ¥ngt tid att Ã¥tgÃ¤rda. 
+
+FrÃ¥ga 1: Beskriv skillnaden mellan vattenfallsmodellen och agil metodik.
+NÃ¤r bÃ¶r man anvÃ¤nda vilken, och varfÃ¶r?
+Vattenfall: Skulle jag anvÃ¤nda mig av vattenfall metoden fÃ¶r â€instaâ€ sÃ¥ skulle jag gÃ¶ra sÃ¥ hÃ¤r:
+â€¢	LÃ¤gga upp en plan, vilka delar/funktioner behÃ¶ver jag fÃ¶r appen. Vilken design vill jag anvÃ¤nda mig av eller kund vad vill.
+â€¢	Hade dÃ¥ bÃ¶rjat i vad jag tycker Ã¤r rÃ¤tt ordning pÃ¥ funktioner och sÃ¥ fort en blir klar sÃ¥ gÃ¥r jag vidare till nÃ¤sta.
+â€¢	LÃ¥t oss bÃ¶rja fÃ¶rst och frÃ¤mst med design och hur det ska se ut.
+â€¢	NÃ¤r design Ã¤r klar kan vi gÃ¥ vidare till nÃ¤sta steg som login.
+â€¢	Vi utfÃ¶r dÃ¥ vÃ¥ra koden i stegvis tills vi gÃ¶r klart varje steg.
+â€¢	NÃ¤r alla steg Ã¤r klara kan appen lanseras.
+o	Vattenfall passar bÃ¤st nÃ¤r: Kraven Ã¤r tydliga ocg fasta redan frÃ¥n bÃ¶rjan.Projektet Ã¤r kortare och enklate.
+Agil: HÃ¤r behÃ¶ver jag inte gÃ¶ra att i steg viss och vÃ¤nta till varje steg Ã¤r fÃ¤rdig.
+â€¢	SjÃ¤lvklart sÃ¥ behÃ¶ver man en plan hÃ¤r med dÃ¤remot kan vi dela upp varje steg i smÃ¥ sektioner som ge oss mÃ¶jlighet att vara flexibla och kunna gÃ¥ tillbaka fÃ¶r att till exempel Ã¤ndra pÃ¥ design eller login vid Ã¶nskan.
+â€¢	Denna metod ger oss fÃ¶rdelarna pÃ¥ att kunna jobba med olika saker samtidigt och inte behÃ¶va boka av allt i stegvis utan kunna lÃ¤tt hoppa frÃ¥n login till likes fÃ¶r att sedan gÃ¥ vidare till upplÃ¤gg av bilder.
+â€¢	Nu kan jag testa mig fram och tillbaka bygga login eller upplÃ¤gg av bilder men gÃ¥ tillbaka och Ã¤ndra om inte jag Ã¤r nÃ¶jd.
+â€¢	HÃ¤r har jag mÃ¶jligheten att lansera utan och vara klar med alla steg fÃ¶r att fÃ¥ feedback frÃ¥n anvÃ¤ndare.
+â€¢	Agil passar bÃ¤st nÃ¤r: Kraven Ã¤r otydliga eller kan fÃ¶rÃ¤ndras under projektets gÃ¥ng. Projektet Ã¤r lÃ¤ngre och mer komplext.Kunden behov kan utvecklas under tiden.
+
 
